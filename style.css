@@ -1,0 +1,51 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  background:  url(IMG/header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	font-size: 3rem;
+	color:#e2dbdb;
+	text-shadow: 0 0 3px #ee4b08,  0 0 5px #F05F44;
+}
+hr{
+	border : solid 3px #F05F44;
+	max-width: 75px;
+
+}
+
+.buffer{
+	height: 100px;
+}
+
+/* ------------------ Agregar a los estilos de bootstrap ------------------*/
+.container{
+	height: 100%;
+}
+.btn{
+
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary{
+	background-color: #F05F44;
+	border-color:  #F05F44; 
+	transition: all 1s;
+}
+
+.btn-primary:hover{
+	background-color: #ee4b08;
+	border-color:  #ee4b08; 
+	transform: scale(1.1);
+	
+}
